@@ -1,6 +1,6 @@
 // ============================================================
 // arm_alu.v  —  32-bit Combinational ALU
-// EE 533 Lab 6  Team 4  Step 3a
+// EE 533 Lab 6  Team 10  Step 3a
 //
 // Pure combinational — no clock, no registers.
 // The pipeline register (EX/MEM) latches the output.
