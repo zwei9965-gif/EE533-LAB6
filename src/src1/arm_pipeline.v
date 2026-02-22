@@ -1,6 +1,6 @@
 // ============================================================
 // arm_pipeline.v  ?  5-Stage ARM Pipeline  (Step 3c)
-// EE 533 Lab 6  Team 4
+// EE 533 Lab 6  Team 10
 //
 // Step 3c ???CPSR / CMP / ???? + flush
 //
@@ -555,7 +555,7 @@ module arm_pipeline (
     reg [31:0] memwb_bl_ret;
     reg        memwb_ls_wb;      // ? ?? Rn
     reg [3:0]  memwb_rn_addr;    // ? ???????
-    reg [31:0] memwb_wb_val;     // ? ????= alu_result = Rn±off?
+    reg [31:0] memwb_wb_val;     // ? ????= alu_result = RnÂ±off?
 
     always @(posedge clk) begin
         if (rst) begin
@@ -599,5 +599,6 @@ module arm_pipeline (
     assign wb2_we    = memwb_ls_wb && memwb_cond_met;
     assign wb2_waddr = memwb_rn_addr;
     assign wb2_wdata = memwb_wb_val;
+
 
 endmodule
