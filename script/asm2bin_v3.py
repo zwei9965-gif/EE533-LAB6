@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 asm2bin_v2.py — ARM32 Assembler (GCC Output Compatible)
-EE 533 Lab 6 - Team 4
+EE 533 Lab 6 - Team 10
 
 Handles real arm-none-eabi-gcc -O1 output including:
   - Conditional execution on ANY instruction (strgt, suble, subne, bxle ...)
