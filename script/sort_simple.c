@@ -1,5 +1,5 @@
 /*
- * sort_simple.c  —  EE 533 Lab 6  Team 4
+ * sort_simple.c  —  EE 533 Lab 6  Team 10
  *
  * Simplified bubble sort designed to compile into a minimal
  * ARM instruction subset (no stack frames, no ldmia/stmia).
